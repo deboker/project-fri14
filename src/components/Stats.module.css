@@ -1,0 +1,23 @@
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .timeContainer {
+    position: absolute;
+    top: 125px;
+  }
+  
+  .timePassed {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .bestTime {
+    color: #7c8ee9;
+    font-size: 1.2em;
+    margin-top: 0;
+  }
