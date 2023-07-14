@@ -6,7 +6,7 @@
   }
   
   .timeContainer {
-    position: absolute;
+    position: flex;
     top: 125px;
   }
   

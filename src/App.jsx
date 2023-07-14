@@ -123,11 +123,11 @@ export default function App() {
         Roll until all dice are the same. Click each die to freeze it at its
         current value between rolls.
       </p>
+      <Stats stats={stats} bestTime={bestTime} />
       <div className="dice-container">{diceElements}</div>
       <button onClick={rollDice} style={styles}>
         {tenzies ? "New Game" : "Roll"}
       </button>
-      <Stats stats={stats} bestTime={bestTime} />
     </div>
   );
 }
